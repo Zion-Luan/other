@@ -1,3 +1,4 @@
+```
 SELECT
   a."$part_date"
 , "Project_1_DAU"
@@ -32,3 +33,4 @@ INNER JOIN (
     GROUP BY "$part_date"
 )  b ON (a."$part_date" = b."$part_date"))
 ORDER BY a."$part_date" ASC
+```
